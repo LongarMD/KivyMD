@@ -151,10 +151,10 @@ Builder.load_string('''
                         pos_hint: {"center_x": .5, "center_y": .5}
 
                         MDRoundImageButton:
-                            source: "demos/kitchen_sink/assets/kivymd_logo.png"
+                            source: "demos/HRUSKA/assets/kivymd_logo.png"
 
                         MDRoundImageButton:
-                            source: "demos/kitchen_sink/assets/kivy-logo-white-512.png"
+                            source: "demos/HRUSKA/assets/kivy-logo-white-512.png"
 
                         MDRoundImageButton:
                             source: "data/logo/kivy-icon-512.png"
@@ -433,7 +433,7 @@ Builder.load_string(
     canvas.before:
         Color:
             rgba:
-                root.theme_cls.primary_color \
+                root.text_color \
                 if root.md_bg_color == [0.0, 0.0, 0.0, 0.0] \
                 else root.md_bg_color
         Line:
